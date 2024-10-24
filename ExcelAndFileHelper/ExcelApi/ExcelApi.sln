@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelApi", "ExcelApi.csproj", "{57AB52B7-9F41-40C5-88AC-D3DF2AF5D098}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelLib", "..\ExcelLib\ExcelLib.csproj", "{C02CF0F9-4304-4E7E-89C0-CF596EAFA3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHelperLib", "..\FileHelperLib\FileHelperLib.csproj", "{9D63A21F-134C-4DA8-BC64-A3724A2001CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57AB52B7-9F41-40C5-88AC-D3DF2AF5D098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AB52B7-9F41-40C5-88AC-D3DF2AF5D098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AB52B7-9F41-40C5-88AC-D3DF2AF5D098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AB52B7-9F41-40C5-88AC-D3DF2AF5D098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02CF0F9-4304-4E7E-89C0-CF596EAFA3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02CF0F9-4304-4E7E-89C0-CF596EAFA3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02CF0F9-4304-4E7E-89C0-CF596EAFA3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02CF0F9-4304-4E7E-89C0-CF596EAFA3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D63A21F-134C-4DA8-BC64-A3724A2001CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D63A21F-134C-4DA8-BC64-A3724A2001CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D63A21F-134C-4DA8-BC64-A3724A2001CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D63A21F-134C-4DA8-BC64-A3724A2001CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9487D2C3-3B0C-4AB4-A7BD-99B98583098A}
+	EndGlobalSection
+EndGlobal
