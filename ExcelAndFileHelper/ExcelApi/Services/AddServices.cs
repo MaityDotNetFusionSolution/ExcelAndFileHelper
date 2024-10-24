@@ -11,7 +11,7 @@ namespace ExcelApi.Services
     {
         public static void AddServicesExtension(this IServiceCollection srv)
         {
-            //Dependance Injection
+            //Add your services
             srv.AddScoped<ExtendedOpenXml>();
             srv.AddScoped<ExtendedNpoi>();
             srv.AddScoped<CsvHelper>();
